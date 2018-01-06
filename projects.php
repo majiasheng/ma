@@ -1,4 +1,14 @@
-<?php include("include/header.php"); ?>
+<?php 
+    include("include/header.php"); 
+    include("include/functions.php"); 
+    
+    $trp_img_dir = 'images/projects/trp/'; // the root project image directory
+    $rgm_img_dir = 'images/projects/rgm/'; // reverse gerrymandering image directory
+    $jcd_img_dir = 'images/projects/jcd/'; // j class designer image directory
+    $lmv_img_dir = 'images/projects/lmv/'; // lawn mover image directory
+    $fb_img_dir = 'images/projects/fb/'; // fb image directory
+
+?>
 <!-- <h1><a href="project.php">Projects</a></h1> -->
 
 
@@ -8,8 +18,8 @@
         <h2><span class="ui-icon ui-icon-triangle-1-e"></span><a href="https://github.com/majiasheng/the-root-project">The Root Project</a></h2>
 
         <ul class="tech-used">
-            <li>python</li>
-            <li>flask</li>
+            <li>Python</li>
+            <li>Flask</li>
             <li>MySQL</li>
             <li>SQLAlchemy</li>
         </ul>
@@ -42,24 +52,27 @@
         get to design and implement large scale project.
         From this class, I learned the importance of planning 
         as well as modularity in software development.<br> -->
-        <h2>JClassDesigner</h2>
+        <h2><span class="ui-icon ui-icon-triangle-1-e"></span><a href="#">JClassDesigner</a></h2>
         The course project is a simplified version of Violet UML Editor.
         One thing that this project is different from the Violet UML Editor is 
         that it could generate java skeleton code from the design.
         </p>
-        <img class="fancybox" src="archived_images/projects/cse219_project_1.png" 
+
+        <?php show_images($jcd_img_dir);?>
+
+        <!-- <img class="fancybox" src="images/projects/cse219_project_1.png" 
         class="proj-image"> <br />
         <p>UML designs</p>
         <p>---</p>
-        <img class="fancybox" title="Export UML design to Java code" src="archived_images/projects/cse219_project_2.png" 
+        <img class="fancybox" title="Export UML design to Java code" src="images/projects/cse219_project_2.png" 
         class="proj-image"> <br />
         <p>Export UML design to Java code</p>
         <p>---</p>
-        <img class="fancybox" src="archived_images/projects/cse219_project_3.png" 
+        <img class="fancybox" src="images/projects/cse219_project_3.png" 
         class="proj-image"> <br />
-        <img class="fancybox" src="archived_images/projects/cse219_project_4.png" 
+        <img class="fancybox" src="images/projects/cse219_project_4.png" 
         class="proj-image"> <br />
-        <p>Java code of UML design</p>
+        <p>Java code of UML design</p> -->
 
         <span style="color: violet">=&gt; <a target="_blank" 
         href="http://alexdp.free.fr/violetumleditor/page.php" 
@@ -101,20 +114,22 @@
         etc.), the second byte represents the fore/backgroud colors.)<br>
 
         <br>
-        <img class="fancybox" src="archived_images/projects/cse220_project.gif" 
+
+        <?php show_images($lmv_img_dir);?>
+        <!-- <img class="fancybox" src="images/projects/cse220_project.gif" 
         class="proj-image"> <br />
         <p>Landscape 1 - Lawn mower in action</p>
         <p>---</p>
-        <img class="fancybox" src="archived_images/projects/cse220_project_1.png" 
+        <img class="fancybox" src="images/projects/cse220_project_1.png" 
         class="proj-image"> <br />
         <p>Landscape 2 - The mower mowed along the pool</p>
         <p>---</p>
-        <img class="fancybox" src="archived_images/projects/cse220_project_2.png" 
+        <img class="fancybox" src="images/projects/cse220_project_2.png" 
         class="proj-image"> <br />
-        <img class="fancybox" src="archived_images/projects/cse220_project_3.png" 
+        <img class="fancybox" src="images/projects/cse220_project_3.png" 
         class="proj-image"> <br />
         <p>"Awesome CSE 220" ascii art on the lawn 
-        and part of its hex values..</p>
+        and part of its hex values..</p> -->
         
         => <a target="_blank" 
         href="https://www.youtube.com/watch?v=ae5mJ9wI5aA" 

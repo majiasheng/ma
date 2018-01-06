@@ -3,20 +3,6 @@ html {
     font-size:          .9em;
 }
 
-.tech-used {
-    list-style: none;
-}
-
-.tech-used>li {
-    display: inline;
-    /*margin: 5px;*/
-}
-
-.career-interest li {
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-
 #archive_container {
     margin: auto;
     width: 50%;
@@ -27,14 +13,6 @@ html {
 /*******************************************
         anchor
 ********************************************/
-/*a:link {
-    color: black;
-    text-decoration: none;
-}
-a:hover {
-    background-color: #646464;
-    color: white;
-}*/
 
 /* visited link */
 a:link, a:visited {
@@ -68,13 +46,20 @@ a:active {
     text-align:  center;
     clear:       both;
     padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.mag-img-container li {
+    padding-top: 1em; 
+    padding-bottom: 1em; 
+    list-style: none;
 }
 
 .mag-img {
     height: auto; 
     width: auto; 
-    max-width: 275px; 
-    max-height: 275px;
+    max-width: 200px; 
+    max-height: 200px;
 }
 
 #backtotop {
@@ -93,40 +78,9 @@ a:active {
     height: 30px;
 }
 
-
 /*******************************************
-        contents
+        image
 ********************************************/
-
-.about {
-    width: 350px;
-    margin: 0 auto; /* center the content */
-    padding-top: 6em;
-    padding-bottom: 4em;
-}
-
-.projects {
-    width: 500px;
-    margin: 0 auto; /* center the content */
-    padding-top: 6em;
-    padding-bottom: 4em;
-}
-
-.proj-image {
-    height: auto; 
-    width: auto; 
-    max-width: 500px; 
-    max-height: 500px;
-}
-
-.tech-used li {
-    padding-left: 1em;
-    padding-right: 1em;
-    border-style: solid;
-    border-width: thin;
-    border-color: rgb(51,121,181); 
-}
-
 
 a.fancybox img {
     border: none;
@@ -139,5 +93,63 @@ a.fancybox:hover img {
     position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
 }
 
+/*******************************************
+        projects.php
+********************************************/
 
 
+.tech-used {
+    list-style: none;
+}
+
+.tech-used>li {
+    display: inline;
+}
+
+
+.projects {
+    width: 500px;
+    margin: 0 auto; /* center the content */
+    padding-top: 6em;
+    padding-bottom: 4em;
+}
+
+.projects ul, .projects li {
+    padding-top: 1em; 
+    padding-bottom: 1em; 
+    list-style: none;
+}
+
+.proj-image {
+    height: auto; 
+    width: auto; 
+    max-width: 500px; 
+    max-height: 500px;
+}
+
+.tech-used li {
+    /*padding-left: 1em;
+    padding-right: 1em;*/
+    padding: 0.1em 1em;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+    border-color: black; 
+}
+
+/*******************************************
+        about.php
+********************************************/
+
+.about {
+    width: 350px;
+    margin: 0 auto; /* center the content */
+    padding-top: 6em;
+    padding-bottom: 4em;
+}
+
+
+.career-interest li {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}

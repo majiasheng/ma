@@ -1,4 +1,7 @@
-<?php include("include/header.php"); ?>
+<?php 
+include("include/header.php"); 
+include("include/functions.php"); 
+?>
 
 <p id="top"></p>
 <div id="backtotop">
@@ -6,21 +9,9 @@
 </div>
 		
 <div class="magazine" >
-<?php
-	$dir = "archived_images/";
-
-	if($dir_ptr = opendir($dir)) {
-
-		while(($file = readdir($dir_ptr))) {
-			if($file!="." && $file!=".." && $file!="projects" 
-			&& $file!="index.html") {
-				echo "<img src='" . $dir . $file . "' 
-					class=\"mag-img\"> <br />";
-				echo "<br /><br /><br /><br />";
-			}
-		}
-	}
-?>
+	<ul class="mag-img-container">
+		<?php show_images("images/magazine/");?>
+	</ul>
 </div>
 
 <?php include("include/footer.php"); ?>
