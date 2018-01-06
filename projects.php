@@ -47,17 +47,17 @@
         One thing that this project is different from the Violet UML Editor is 
         that it could generate java skeleton code from the design.
         </p>
-        <img src="archived_images/projects/cse219_project_1.png" 
+        <img class="fancybox" src="archived_images/projects/cse219_project_1.png" 
         class="proj-image"> <br />
         <p>UML designs</p>
         <p>---</p>
-        <img src="archived_images/projects/cse219_project_2.png" 
+        <img class="fancybox" title="Export UML design to Java code" src="archived_images/projects/cse219_project_2.png" 
         class="proj-image"> <br />
         <p>Export UML design to Java code</p>
         <p>---</p>
-        <img src="archived_images/projects/cse219_project_3.png" 
+        <img class="fancybox" src="archived_images/projects/cse219_project_3.png" 
         class="proj-image"> <br />
-        <img src="archived_images/projects/cse219_project_4.png" 
+        <img class="fancybox" src="archived_images/projects/cse219_project_4.png" 
         class="proj-image"> <br />
         <p>Java code of UML design</p>
 
@@ -101,17 +101,17 @@
         etc.), the second byte represents the fore/backgroud colors.)<br>
 
         <br>
-        <img src="archived_images/projects/cse220_project.gif" 
+        <img class="fancybox" src="archived_images/projects/cse220_project.gif" 
         class="proj-image"> <br />
         <p>Landscape 1 - Lawn mower in action</p>
         <p>---</p>
-        <img src="archived_images/projects/cse220_project_1.png" 
+        <img class="fancybox" src="archived_images/projects/cse220_project_1.png" 
         class="proj-image"> <br />
         <p>Landscape 2 - The mower mowed along the pool</p>
         <p>---</p>
-        <img src="archived_images/projects/cse220_project_2.png" 
+        <img class="fancybox" src="archived_images/projects/cse220_project_2.png" 
         class="proj-image"> <br />
-        <img src="archived_images/projects/cse220_project_3.png" 
+        <img class="fancybox" src="archived_images/projects/cse220_project_3.png" 
         class="proj-image"> <br />
         <p>"Awesome CSE 220" ascii art on the lawn 
         and part of its hex values..</p>
