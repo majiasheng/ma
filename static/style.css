@@ -1,14 +1,11 @@
-html {
+/*html {
     background-color:   255 255 255;
     font-size:          .9em;
-}
+}*/
 
-#archive_container {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
+body { 
+    padding-top: 70px; 
 }
-
 
 /*******************************************
         anchor
@@ -22,6 +19,7 @@ a:link, a:visited {
 /* mouse over link */
 a:hover {
     color: yellow;
+    text-decoration-style: none;
 }
 
 /* selected link */
@@ -32,11 +30,16 @@ a:active {
         footer
 ********************************************/
 .footer {
-    background-color: white;
+    background-color: rgb(248,248,248);
     position: fixed;
-    bottom:         0px; 
-    padding-left:   20px;
-    width:          100%;
+    bottom: 0px; 
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    border: solid;
+    border-width: thin;
+    border-color: rgb(231, 231, 231);
+    width: 100%;
 }
 
 /*******************************************
@@ -110,7 +113,6 @@ a.fancybox:hover img {
 .projects {
     width: 500px;
     margin: 0 auto; /* center the content */
-    padding-top: 6em;
     padding-bottom: 4em;
 }
 
@@ -142,14 +144,15 @@ a.fancybox:hover img {
 ********************************************/
 
 .about {
-    width: 350px;
-    margin: 0 auto; /* center the content */
-    padding-top: 6em;
-    padding-bottom: 4em;
+    /*width: 350px;*/
+    /* center the content */
+    /*margin: 0 auto; */
+    /*padding-top: 6em;*/
+    /*padding-bottom: 4em;*/
 }
 
 
 .career-interest li {
     padding-top: 1em;
-    padding-bottom: 1em;
+    /*padding-bottom: 1em;*/
 }

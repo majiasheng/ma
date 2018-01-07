@@ -6,7 +6,7 @@
     <li><a href="assets/resume_majiasheng.pdf"><span>Résumé</span></a></li>
     </ul>
     </nav>  -->
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top">
 
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -19,6 +19,7 @@
         <ul class="nav navbar-nav">
             <li><a href="about.php">About Me</a></li>
             <li><a href="projects.php">Projects</a></li>
+            <li><a href="different">See Different</a></li>
             <!-- <li><a href="resume">Résumé</a></li> -->
         </ul>
         <!--end nav bar left-->
