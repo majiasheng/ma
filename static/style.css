@@ -7,6 +7,10 @@ body {
     padding-top: 70px; 
 }
 
+.name {
+    font-size: 4em;
+}
+
 /*******************************************
         anchor
 ********************************************/
@@ -45,6 +49,14 @@ a:active {
 /*******************************************
         magazine.php
 ********************************************/
+
+#magazine-name {
+    background-color: rgb(50, 80, 109); 
+    padding: 0.1em 0.3em;
+    border-radius: 2px;
+    color:white;
+}
+
 .magazine {
     text-align:  center;
     clear:       both;

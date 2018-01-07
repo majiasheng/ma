@@ -1,3 +1,4 @@
+
 $( function() {
   $( "#draggable" ).draggable();
   $( "#droppable" ).droppable({
@@ -29,3 +30,4 @@ $(function($){
         }).attr('data-fancybox', 'image');
     });
 $.noConflict();
+
