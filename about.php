@@ -31,7 +31,7 @@
                 });
                 </script>
                 <ul class="interest">
-                    <li>Workout <a href="#" data-toggle="tooltip" title="Unofficial record at Stony Brook University Recreation Center/personal record: 295lb squat (weight class:130lb)">💪🏿 <span class="ui-icon ui-icon-info"></span></a></a></li>
+                    <li>Workout <a href="#" data-toggle="tooltip" title="Personal record: 295lb squat (weight class:130lb)">💪🏿 <span class="ui-icon ui-icon-info"></span></a></a></li>
 
                     
                 </ul>
