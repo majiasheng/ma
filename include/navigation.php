@@ -20,7 +20,7 @@
             <li><a href="about.php">About Me</a></li>
             <li><a href="projects.php">Projects</a></li>
             <li><a href="different">See Different</a></li>
-            <!-- <li><a href="resume">Résumé</a></li> -->
+            <li><a href="resume.pdf">Résumé</a></li>
         </ul>
         <!--end nav bar left-->
 

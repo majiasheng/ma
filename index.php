@@ -20,11 +20,15 @@ if ($req_page == "different") {
 } else {
 ?>
 
-    <h2>Hello World, I'm</h2> 
+    <h2>Hello World! I'm</h2> 
     <h1 class="name">majiasheng /mah ʤiɑ ʃ aint/</h1>
     <div>
         <h3>Jia Sheng is my first name, and Ma is my last name.</h3>
         <h3>'MAJIASHENG' is more aesthetically pleasing than 'Jia Sheng Ma'</h3>
+        <h3><strong>I am a dreamer, knowledge lover and software developer</strong></h3>
+        <h3>Here, I welcome you and hope you will get inspired</h3>
+        <hr>
+        <h3><button>goto random;</button></h3>
 
     </div>
 <?php

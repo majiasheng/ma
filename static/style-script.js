@@ -1,6 +1,5 @@
 
-// $( function() {
-// $("#draggable").draggable();
+// $(function(){
 // $("#droppable").droppable({
 //     drop: function( event, ui ) {
 //         $("h1").html("<a href=\"#\">You are In</a>");
@@ -49,6 +48,8 @@ $(function($){
     $(".mag-img-container a").fancybox({ 
         // animationEffect : 'fade'
         }).attr('data-fancybox', 'image');
+
+    $(".draggable").draggable();
 });
 
 

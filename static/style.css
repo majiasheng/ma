@@ -21,6 +21,10 @@ body {
     padding-bottom: 2em;
 }
 
+ul {
+    /*list-style: none;*/
+}
+
 /*******************************************
         anchor
 ********************************************/
@@ -122,6 +126,7 @@ a.fancybox:hover img {
         projects.php
 ********************************************/
 .proj-nav {
+    z-index: 1;
     border-radius: 3px;
     margin:0.5em;
     padding-top: 1em;
@@ -200,7 +205,10 @@ a.active {
 }
 
 #proj-stool {
+    position: relative;
+    /*align-items: center;*/
     padding-bottom: 6em;
+    margin: auto;
 }
 
 /*******************************************
@@ -215,8 +223,16 @@ a.active {
     /*padding-bottom: 4em;*/
 }
 
-
 .career-interest li {
     padding-top: 1em;
     /*padding-bottom: 1em;*/
+}
+
+.work, .personal {
+    padding: 1em;
+    border: solid;
+    border-width: thin;
+    border-radius: 3px;
+    /*min-height:100vh;*/
+    box-shadow: 5px 10px 8px #888888;
 }

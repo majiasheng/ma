@@ -29,8 +29,9 @@
                         $fb => 'Facebook Clone (Knock Off)'
                     );
 ?>
+
 <!-- <h1><a href="project.php">Projects</a></h1> -->
-<div class="proj-nav">
+<div class="proj-nav draggable">
     <ul>
         projects = [
         <?php 
